@@ -1,6 +1,6 @@
 # GS SPRING BOOT APPLICATION
-# - using Docker & Gradle 
-# - based on Acl Strategy
+- using Docker & Maven
+- based on Acl Strategy
 
 < CURRENT WORK IN PROGRESS >
 
@@ -8,6 +8,8 @@
 
 without the Docker container
 $ ./gradlew build && java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
+
+Start on localhost:8080
 
 
 ## BUILD DOCKER IMAGE
